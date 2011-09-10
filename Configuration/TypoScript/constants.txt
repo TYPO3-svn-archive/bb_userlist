@@ -1,0 +1,14 @@
+plugin.tx_bbuserlist {
+	view {
+		# cat=plugin.tx_bbuserlist/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:bb_userlist/Resources/Private/Templates/
+		# cat=plugin.tx_bbuserlist/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:bb_userlist/Resources/Private/Partials/
+		# cat=plugin.tx_bbuserlist/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:bb_userlist/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_bbuserlist//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}

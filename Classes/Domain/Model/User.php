@@ -1,0 +1,2 @@
+<?php
+class Tx_BbUserlist_Domain_Model_User extends Tx_Extbase_Domain_Model_FrontendUser{}

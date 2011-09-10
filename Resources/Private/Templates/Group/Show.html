@@ -1,0 +1,8 @@
+<f:for each="{groups}" as="users" key="groupName">
+<div>
+	<span>{groupName}</span>
+	<f:for each="{users}" as="user">
+		{user.name}<br />
+	</f:for>
+</div>
+</f:for>

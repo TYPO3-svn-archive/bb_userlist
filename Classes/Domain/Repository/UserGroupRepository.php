@@ -1,0 +1,3 @@
+<?php
+class Tx_BbUserlist_Domain_Repository_UserGroupRepository extends Tx_Extbase_Persistence_Repository {
+}
